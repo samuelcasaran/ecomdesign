@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff; 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-image: url(../img/fondo.jpg);
+    background-position: top; 
+    background-size: cover; 
+    height: 140vh;
+}.navbar-brand-2{
+    display: none;
+}
+
+.enlace{
+    color: white; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    transition: ease-in-out 0.3s;
+    margin: 10px; 
+   
+}
+.enlace:hover,.enlace:active {
+    color: white; 
+    border-bottom: 1px solid white;
+    transition: ease-in-out 0.3s; 
+   
+} 
+.enlace:active {
+    color: white; 
+    border-bottom: 1px solid white;
+    transition: ease-in-out 0.3s; 
+   
+} 
+h2{
+color: #059B8B;
+} 
+p{
+    font-size: 13px;  
+    color: #7B7878;
+    
+}  
+form{
+    display: flex;
+align-items: center; 
+gap: 1.0em;
+}
+input{  
+    border:1px solid #e8e8e8;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(153,153,153,1);
+-moz-box-shadow: 10px 10px 30px 0px rgba(153,153,153,1);
+box-shadow: 10px 10px 30px 0px rgba(153,153,153,1);
+    border-radius: 15px;
+}
+input:focus
+{ 
+    border:1px solid #e8e8e8;
+border-radius: 15px;
+  background-color: #fff;
+} 
+input:active{
+    border:1px solid #e8e8e8;
+} 
+.btn{ 
+    border:1px solid #e8e8e8;
+    border-radius: 100%; 
+    background-color: #059B8B ; 
+    color: #ffffff; 
+    font-size: 14px; 
+    text-align: center;
+} 
+h3{
+    font-size: 70px;
+    color: white;
+} 
+h3 span{
+    color: #14FF72;
+}
+.bg2{
+display: none;
+}  
+.port{
+    max-width: 500px;
+} 
+.btna{ 
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #05776A;  
+    padding-left: 40px;
+    padding-right: 40px; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border-radius: 20px; 
+    transition: ease-in-out 0.3s ;
+}
+.btna:hover{
+    transition: ease-in-out 0.3s ; 
+    background-color: #059B8B; 
+    color:white;  
+    border: 1px solid #05776a00;  
+    
+}
+.single{ 
+    width: 95%;
+    transition: ease-in-out 0.3s ; 
+  
+}
+.single:hover{ 
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s ; 
+ 
+} 
+h1{
+    font-size: 25px;
+} 
+.bg3{
+    background-color: white;
+}
+
+
+
+
+
+
+
+

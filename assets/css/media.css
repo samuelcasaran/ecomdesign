@@ -1,0 +1,86 @@
+@media (max-width: 990px) {
+  .navbar-expand-lg {
+    /* From https://css.glass */
+background: rgba(11, 209, 117, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);  
+color: rgb(156, 156, 156);
+
+  }  
+  body{  
+    background-color: rgba(240, 248, 255, 0);
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    
+  } 
+  h1{
+    text-align: center;
+  }
+  .navbar-brand-2{
+    display: flex;
+}  
+.brand img{
+  max-width: 150px;
+}
+.navbar-brand{
+  display: none;
+} 
+header{
+  background: none;
+}
+body{
+  background-image:none;
+} 
+.text{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center; 
+  text-align: center;
+}
+.bg2{
+  display: block; 
+  text-align: center;
+  }
+  .bg{
+    display: none;
+  }
+  
+  h3{
+    font-size: 50px; 
+    color: black;
+  } 
+  .col-sm-12{
+    width: 100%;
+  } 
+  h2{
+    color: rgb(0, 151, 106);
+  } 
+  .port{
+    max-width: 290px; 
+
+}
+.single{ 
+  width: 200PX;
+  transition: ease-in-out 0.3s ; 
+
+}
+
+  } 
+  @media (max-width: 520px) {
+
+    .port{
+      max-width: 270px; 
+
+  } 
+  .single{
+    max-width: 200px;
+  }
+  } 
+  @media (max-width: 300px) {
+
+    .port{
+      max-width: 200px;
+  }
+  }
