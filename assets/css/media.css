@@ -9,11 +9,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 color: rgb(156, 156, 156);
 
   }  
-  body{  
-    background-color: rgba(240, 248, 255, 0);
-    background-image: url(../img/fondo.png);
+  header{  
+    background-image: url(../img/fondo3.png);
     background-size: cover;
-    
+    height: 130vh;
   } 
   h1{
     text-align: center;
@@ -27,12 +26,8 @@ color: rgb(156, 156, 156);
 .navbar-brand{
   display: none;
 } 
-header{
-  background: none;
-}
-body{
-  background-image:none;
-} 
+
+
 .text{
   display: flex;
   flex-flow: column wrap;

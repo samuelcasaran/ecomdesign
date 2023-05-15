@@ -1,19 +1,27 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Istok Web', sans-serif;
+ 
 }
 body{
-    background-color: #ffffff; 
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+    background-color: white; 
+    overflow-x: hidden;
+} 
+
+.container-fluid{
+    overflow-x: hidden;
+}  
+.container{
+    overflow-x: hidden;
+} 
+
 
 
 
 header{
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/fondo.png);
     background-position: top; 
     background-size: cover; 
     height: 140vh;
@@ -41,10 +49,11 @@ header{
    
 } 
 h2{
-color: #059B8B;
+color: #059B8B; 
+font-weight: bold;
 } 
 p{
-    font-size: 13px;  
+    font-size: 15px;  
     color: #7B7878;
     
 }  
@@ -96,12 +105,10 @@ display: none;
     font-size: 13px;
     text-decoration: none;
     border: 1px solid #05776A;  
-    padding-left: 40px;
-    padding-right: 40px; 
-    padding-top: 5px;
-    padding-bottom: 5px; 
     border-radius: 20px; 
-    transition: ease-in-out 0.3s ;
+    transition: ease-in-out 0.3s ; 
+    width: 100%; 
+    padding:  10px 10px 10px 15px;
 }
 .btna:hover{
     transition: ease-in-out 0.3s ; 
@@ -111,26 +118,49 @@ display: none;
     
 }
 .single{ 
-    width: 95%;
+    max-width: 100%;
     transition: ease-in-out 0.3s ; 
   
 }
 .single:hover{ 
-    transform: scale(1.05);
+    transform: scale(1.1);
     transition: ease-in-out 0.3s ; 
  
 } 
 h1{
-    font-size: 25px;
+    font-size: 35px; 
+  font-weight: bold;
 } 
 .bg3{
     background-color: white;
 }
+.menu-2{
+    display: flex;  
+    flex-flow: row wrap;
+    justify-content: center;  
+
+}
+.menu-2 a{ 
+   font-size: 13px; 
+   color: #7B7878;
+    
+}
 
 
 
+.brand_2{
+    display: flex; 
+    justify-content: center; 
 
-
+} 
+h4  {
+font-weight: bold;
+font-size: 30px;
+} 
+footer  { 
+    margin-top: 200px;
+  background-color: rgb(244, 244, 244);
+    } 
 
 
 
