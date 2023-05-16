@@ -87,8 +87,9 @@ input:active{
     text-align: center;
 } 
 h3{
-    font-size: 70px;
-    color: white;
+    font-size: 90px;
+    color: white; 
+    font-weight: bold;
 } 
 h3 span{
     color: #14FF72;
